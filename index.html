@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icons/favicon.ico">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <input type="checkbox" class="nav-toggler" id="nav-toggler">
+            <div class="nav-top">
+                <a href="#" class="nav-link"><img src="img/icons/logo.svg" alt="" class="nav-link-img"></a>
+                <label for="nav-toggler" class="nav-label"></label>
+            </div>
+            <div class="nav-bottom">
+                <form action="https://api.web3forms.com/submit" method="POST" class="nav-bottom-form">
+                    <input type="hidden" name="access_key" value="dacdd6f5-56c3-41f0-ab8a-42f28e105b37">
+                    <h2 class="nav-bottom-form-title">Оставить заявку</h2>
+                    <input type="text" name="Имя" class="nav-bottom-form-text" placeholder="Имя" required>
+                    <input type="email" name="Почта" class="nav-bottom-form-text" placeholder="Почта" required>
+                    <textarea name="Контакты" placeholder="Другие контакты(WhatsApp/Telegram)" id="" class="nav-bottom-form-textarea"></textarea>
+                    <button type="submit" class="nav-bottom-form-button">Подтвердить</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="menu">
+        <p class="menu-text">Меню</p>
+        <a href="#header" class="menu-button"><img src="img/icons/menu_item-back0.svg" alt=""></a>
+        <a href="#layouts" class="menu-button"><img src="img/icons/menu_item-back1.svg" alt=""></a>
+        <a href="#portfolio" class="menu-button"><img src="img/icons/menu_item-back2.svg" alt=""></a>
+        <a href="#stages" class="menu-button"><img src="img/icons/menu_item-back3.svg" alt=""></a>
+    </section>
+    <header class="header" id="header">
+        <div class="header-container">
+            <div class="header-left">
+                <h1 class="header-title">Дизайн, верстка и разработка сайтов</h1>
+                <a href="#layouts" class="header-btn"><img src="img/icons/header-btn-arrow.svg" alt="" class="header-btn-arrow"></a>
+            </div>
+            <div class="header-right">
+                <img src="img/images/header-knight.png" alt="" class="header-right-knight">
+                <img src="img/images/header-pannel.png" alt="" class="header-right-pannel">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="layouts" id="layouts">
+            <div class="layouts-container">
+                <div class="layouts-card-1">
+                    <img src="img/images/about-card1.png" alt="" class="layouts-card-1-img">
+                    <h2 class="layouts-card-1-title">Макеты</h2>
+                    <p class="layouts-card-1-text">Создание и верстка различных макетов. Настраиваемые и гибкие решения. Возможность кастомизации под изменения вашей компании.</p>
+                </div>
+                <div class="layouts-card-2">
+                    <img src="img/images/about-card2.png" alt="" class="layouts-card-2-img">
+                    <h3 class="layouts-card-2-title">Иконография</h3>
+                    <p class="layouts-card-2-text">Создание иконок или редизайн имеющихся</p>
+                </div>
+                <div class="layouts-card-3">
+                    <img src="img/images/about-card3.png" alt="" class="layouts-card-3-img">
+                    <h3 class="layouts-card-3-title">Формы</h3>
+                </div>
+                <div class="layouts-card-4">
+                    <img src="img/images/about-card4.png" alt="" class="layouts-card-4-img">
+                </div>
+                <div class="layouts-card-5">
+                    <img src="img/images/about-card5-gradient-ring.svg" alt="" class="layouts-card-5-img1">
+                    <img src="img/images/about-card5-white-circle.svg" alt="" class="layouts-card-5-img2">
+                </div>
+                <div class="layouts-card-6">
+                    <img src="img/images/about-card6.png" alt="" class="layouts-card-6-img">
+                    <p class="layouts-card-6-text">Вносите свои пожелания в процессе работы. Отслеживайте состояние разработки</p>
+                    <h3 class="layouts-card-6-title">Полный цикл разработки</h3>
+                </div>
+                <div class="layouts-card-7">
+                    <h3 class="layouts-card-7-title">Делаем с душой!</h3>
+                </div>
+                <div class="layouts-card-8">
+                        <img src="img/images/about-card8.png" alt="" class="layouts-card-8-img">
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="portfolio-container">
+                <input type="radio" checked name="radio" class="portfolio-in1" id="portfolio-in1">
+                <input type="radio" name="radio" class="portfolio-in2" id="portfolio-in2">
+                <input type="radio" name="radio" class="portfolio-in3" id="portfolio-in3">
+                <div class="portfolio-labels">
+                    <label for="portfolio-in1" class="portfolio-labels-text portfolio-lab1">проект 1</label>
+                    <label for="portfolio-in2" class="portfolio-labels-text portfolio-lab2">проект 2</label>
+                    <label for="portfolio-in3" class="portfolio-labels-text portfolio-lab3">проект 3</label>
+                </div>
+                <div class="portfolio-cards">
+                    <img src="img/images/portfolio1.png" alt="" class="portfolio-cards-img portfolio-img1">
+                    <img src="img/images/portfolio2.png" alt="" class="portfolio-cards-img portfolio-img2">
+                    <img src="img/images/portfolio3.png" alt="" class="portfolio-cards-img portfolio-img3">
+                </div>
+            </div>
+        </section>
+        <section class="stages" id="stages">
+            <div class="stages-container">
+                <div class="stages-container-card1">
+                    <img src="img/images/other-bg.png" alt="" class="stages-container-card1-img1">
+                    <img src="img/images/other-phone.png" alt="" class="stages-container-card1-img2">
+                </div>
+                <div class="stages-container-card2">
+                    <h2 class="stages-card-title">1</h2>
+                    <p class="stages-card-text">Закажи</p>
+                </div>
+                <div class="stages-container-card3">
+
+                </div>
+                <div class="stages-container-card4">
+                    <h2 class="stages-card-title">2</h2>
+                    <p class="stages-card-text">Заплати</p>
+                </div>
+                <div class="stages-container-card5">
+
+                </div>
+                <div class="stages-container-card6">
+                    <h2 class="stages-card-title">3</h2>
+                    <p class="stages-card-text">Получи</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <h2 class="footer-container-title">Мои контакты</h2>
+            <p class="footer-container-text">почта: abc@gmail.com</p>
+            <p class="footer-container-text">телефон: 8-232-31-32-231</p>
+            <h2 class="footer-container-title">Больше наших проектов тут</h2>
+            <a href="" class="footer-container-link">сайт про марс</a>
+            <a href="" class="footer-container-link">сайт кинотеатр</a>
+            <a href="" class="footer-container-link">сайт порше</a>
+            <a href="" class="footer-container-link">сайт диджитал агенства</a>
+        </div>
+    </footer>
+</body>
+</html>

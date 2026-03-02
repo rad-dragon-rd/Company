@@ -1,0 +1,205 @@
+@media(max-width:1700px){
+    .header-left {
+        padding-left: 150px;
+    }
+}
+@media(max-width:1500px){
+    .header-right{
+        width: 40%;
+        height: 450px;
+    }
+    .header-container{
+        justify-content: space-between;
+    }
+}
+@media(max-width:1200px){
+    .menu{
+        width: 500px;
+        height: 80px;
+        flex-direction:row;
+        top: auto;
+        transform: translateY(0);
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu-button {
+        margin-bottom: 0;
+        
+    }
+    .header-left{
+        padding-left: 50px;
+        padding-right: 40px;
+    }
+    .header-right{
+        width: 50%;
+        height: 350px;
+    }
+    .header-right-pannel{
+        width: 50px;
+        top: 30px;
+        left: -30px;
+    }
+}
+@media(max-width:830px){
+    .header-right{
+        width: 40%;
+        height: 250px;
+    }
+    .header-right-pannel{
+        display: none;
+    }
+    .layouts-container{
+        grid-template-rows: repeat(6, 220px);
+    }
+    .portfolio-cards{
+        height: 500px;
+    }
+    .stages-container{
+        grid-template-rows: repeat(3, 240px);
+    }
+        .layouts-card-2-img{
+        width: 100%;
+    }
+}
+@media(max-width:750px){
+    .layouts-card-5-img1{
+        height: 90%;
+    }
+    .header-right{
+        display: none;
+    }
+    .nav-bottom-form{
+        max-width: 85%;
+    }
+    .portfolio-labels-text{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:650px){
+    .layouts-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 350px);
+        max-width: 450px;
+        grid-template-areas: 
+        "lay1"
+        "lay1"
+        "lay2"
+        "lay3"
+        "lay4"
+        "lay5"
+        "lay6"
+        "lay7"
+        "lay8"
+        ;
+    }
+    .layouts-card-1{
+        text-align: center;
+    }
+    .layouts-card-2-img{
+        width: 55%;
+        margin-bottom: 10px;
+    }
+    .layouts-card-2{
+        text-align: center;
+    }
+    .layouts-card-6{
+        text-align: center;
+    }
+    .layouts-card-6-text{
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+    .layouts-card-6-title{
+        text-align: center;
+    }
+    .layouts-card-6-img{
+        width: 100%;
+    }
+    .stages-container{
+        grid-template-rows: repeat(6, 200px);
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "card1"
+        "card1"
+        "card1"
+        "card2"
+        "card4"
+        "card6"
+        ;
+        max-width: 450px;
+        width: 100%;
+    }
+    .stages-container-card3{
+        display: none;
+    }
+    .stages-container-card5{
+        display: none;
+    }
+    .footer-container{
+        height: 650px;
+
+    }
+    .stages-container-card1-img2{
+        width: 70%;
+    }
+}
+@media(max-width:540px){
+    .menu{
+        width: 350px;
+    }
+    .portfolio-cards{
+        height: 300px;
+    }
+    .portfolio-labels-text{
+        font-size: 1.3rem;
+    }
+    .nav-toggler:checked ~ .nav-top .nav-label::after{
+        content: "Закрыть";
+        right: 15px;
+    }
+}
+@media(max-width:440px){
+    .nav-link-img{
+        width: 120px;
+    }
+    .nav-label{
+        width: 150px;
+    }
+    .nav-label::before{
+        left: 5px;
+    }
+    .nav-label::after{
+        font-size: 0.8rem;
+        right: 5px;
+    }
+    .nav-bottom-form{
+        padding: 30px;
+        width: 100%;
+        max-width: 440px;
+    }
+    .nav-toggler:checked ~ .nav-top .nav-label::after{
+        content: "Закрыть";
+        right: 15px;
+    }
+}
+@media(max-width:380px){
+    .menu{
+        width: 340px;
+    }
+    .menu-button{
+        width: 50px;
+    }
+    .header-title{
+        font-size: 2.5rem;
+    }
+    .portfolio-labels-text{
+        font-size: 1.2rem;
+    }
+    .footer-container-title{
+        font-size: 1.6rem;
+    }
+}
